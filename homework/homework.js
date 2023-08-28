@@ -12,7 +12,7 @@ let array = num.split("")//.reverse()
   for ( let i = 0; i < num.length; i++){
     // sum = sum + array[i] * 2 ** i;  (Premye methode)
 
-    sum = sum + parseInt(array[i]) * Math.pow(2,array.length -1 -i)
+    sum = sum + parseInt(array[i]) * Math.pow(2,array.length -1 -i) //(dezyèm)
   }
   return sum
 
